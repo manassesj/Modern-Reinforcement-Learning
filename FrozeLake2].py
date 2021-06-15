@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 policy = {0: 1, 1: 2, 2: 1, 3: 0, 4: 1, 6: 1, 8: 2, 9: 1,
           10: 1, 13: 2, 14: 2}
-
+  
 env = gym.make('FrozenLake-v0')
 n_games = 1000
 win_pct = []
