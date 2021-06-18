@@ -39,5 +39,4 @@ class Agent():
 
         self.Q[(state, action)] += self.lr * (reward + self.gamma * self.Q[(state_, a_max)] -
                                               self.Q[(state, action)])
-
         self.decrement_epsilon()
